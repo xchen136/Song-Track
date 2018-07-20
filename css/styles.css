@@ -1,0 +1,16 @@
+
+.center{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	border-radius: 8px;
+}
+
+body{
+	font-family:  "Bodoni MT", "Times New Roman", "Serif";
+}
