@@ -16,7 +16,7 @@ img{
 body{
 	color: white;
 	font-family:  "Bodoni MT", "Times New Roman", "Serif";
-	background-image: url(../image/black-blur.jpg);
+	background-image: url("../image/black-blur.jpg");
 	background-size: cover;
 }
 
