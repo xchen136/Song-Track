@@ -1,4 +1,6 @@
 # Song-Track
+[View Application](http://xiaomin-chen.com/coding-project/song-track-finder/song-track-finder.html)
+
 A program that searches a song using last.fm's API.
 
 Tech Stack: HTML, CSS, jQuery, last.fm API
