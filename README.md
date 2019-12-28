@@ -1,10 +1,9 @@
 # Song-Track
 [View Application](http://xiaomin-chen.com/coding-project/song-track-finder/song-track-finder.html)
 
-A program that searches a song using last.fm's API.
+A program that searches a song link and image using last.fm and spotify API.
 
 Tech Stack: HTML, CSS, jQuery, last.fm API
 
-The song and artist name is retrieved from the user through [input] tag.
-Once the user clicks the [button] "Search", the function findTrack(track, artist) will be called. 
-By connecting to last.fm's API, jQuery's method getJSON() is used to find the corresponding artist image and link to the song on last.fm's website. 
+The last.fm API is used to provide track link on last.fm website while spotify API is used to display the corresponding album image.
+Note that last.fm restricted client access to the image of their tracks, which is the reason behind using spotify API instead.
