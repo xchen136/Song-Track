@@ -29,12 +29,12 @@
 		
 
 		function findTrack(track, artist){
-			const lastfmKey = "1f3539347e22d278c72986ded555a3fc";
+			const lastfmKey = "YOUR_LAST_FM_CLIENT_KEY";
 			let lastfmEndpt = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=" +track+ 
 							  "&artist=" +artist+ "&api_key=" +lastfmKey+ "&format=json";
 
-			const spotifyKey = "d0f07b6e6bbf4a7fb658f959a0317157";
-			const spotifySecret = '6370d1cf023749b8877379b1501d5f2c'
+			const spotifyKey = "YOUR_SPOTIFY_CLIENT_KEY";
+			const spotifySecret = 'YOUR_SPOTIFY_CLIENT_SECRET'
 			const mainEndpt = 'https://api.spotify.com/v1/search';	
 			const tokenEndpt = 'https://accounts.spotify.com/api/token';			//need to request access token first
 			let authEncoded = window.btoa(`${spotifyKey}:${spotifySecret}`);		//Base 64 encoded string containing client ID and secret 
